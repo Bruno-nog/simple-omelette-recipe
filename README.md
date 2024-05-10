@@ -22,7 +22,7 @@ Esta é uma solução para o [desafio da página de receitas no Frontend Mentor]
 
 ### Links
 
-- Site da minha solução URL: [Add live site URL here](https://your-live-site-url.com)
+- Site da minha solução URL: [link do meu desafio](https://bruno-nog.github.io/simple-omelette-recipe/)
 
 
 ### Feito com
