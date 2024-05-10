@@ -1,0 +1,137 @@
+body {
+    background-color:  hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+}
+
+main {
+    background-color:  hsl(0, 0%, 100%);
+    max-width: 650px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main img {
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+main h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+main .titulo-receita {
+    margin-bottom: 20px;
+    font-family: "Young Serif", serif;
+}
+
+main .info .description {
+    margin-bottom: 28px;
+}
+
+main .info {
+    padding-inline: 30px;
+}
+
+main .info .descricao {
+    margin-bottom: 20px;
+}
+
+
+main .titulo-receita {
+    margin-bottom: 20px;
+    font-family: "Young Serif", serif;
+}
+
+main .prep-time {
+    margin-inline:30px ;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main .prep-time .titulo {
+    padding: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+main .prep-time ul {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+main .prep-time ul li {
+    margin-bottom: 10px;
+}
+
+main .prep-time ul li::before,
+main .ingredients ul li::before,
+main .instructions ul li::before{
+    content: '';
+    margin-left: 10px;
+}
+
+main .ingredients {
+    margin-inline: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+main .ingredients ul {
+    padding: 20px;
+}
+
+main .ingredients ul li {
+    margin-bottom: 5px;
+}
+
+main .instructions {
+    margin-inline: 30px;
+    border-bottom: 1px solid  hsl(30, 54%, 90%);
+}
+
+main .instructions ol {
+    padding: 15px;
+}
+
+main .instructions ol li{
+    margin-bottom: 10px;
+}
+
+main .instructions ol li::marker,
+main table .valores {
+  color: hsl(332, 51%, 32%);
+  font-weight: bolder;
+}
+
+main .nutricao {
+    margin-inline: 30px;
+    margin-top: 20px;
+}
+
+main .nutricao h2 {
+    margin-bottom: 20px;
+}
+
+main .nutricao p {
+    margin-bottom:10px;
+}
+
+main table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+main table tr:not(:last-child) {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+  
+  main table td {
+    padding: 10px;
+  }
