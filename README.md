@@ -28,7 +28,7 @@ Esta é uma solução para o [desafio da página de receitas no Frontend Mentor]
 ### Feito com
 
 - HTML5
-- CSS
+- CSS3
 - Flexbox
 
 ### O que aprendi
